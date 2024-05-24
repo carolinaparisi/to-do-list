@@ -4,7 +4,7 @@
 
 Using this app you can create a to do item, you can delete it and toggle its status once the to do item is done ☑️
 
-###### Used technologies :
+### Used technologies :
 
 - JavaScript Vanilla;
 - CSS Vanilla;
