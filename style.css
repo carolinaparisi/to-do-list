@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	font-size: 4rem;
+	padding: 2rem;
+	text-align: center;
+}
+
+.input-forms {
+	font-size: 2rem;
+	padding: 1rem;
+	text-align: center;
+}
+
+.task-input {
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+
+.description-input {
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	margin-bottom: 2rem;
+}
+
+input {
+	font-size: 2rem;
+	box-sizing: content-box;
+	height: 3rem;
+	width: 50%;
+	margin: 2rem;
+	border-radius: 8px;
+}
+
+#add-button {
+	background-color: cornflowerblue;
+	font-size: 2rem;
+	border: solid white;
+	color: white;
+	border-radius: 8px;
+	box-sizing: content-box;
+	height: 4rem;
+	width: 16rem;
+}
+
+#actions-td {
+	display: flex;
+	border: solid white;
+}
+
+.actions-btn {
+	background-color: mediumseagreen;
+	font-size: 1.5rem;
+	border: solid white;
+	color: white;
+	border-radius: 8px;
+	box-sizing: content-box;
+	height: 3rem;
+	width: max-content;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+}
+
+#toggle-btn {
+	opacity: 0.7;
+}
+
+#delete-btn {
+	background-color: crimson;
+}

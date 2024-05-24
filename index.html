@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MySimpleToDoList</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="index.js"></script>
+		<script src="https://cdn.tailwindcss.com"></script>
+	</head>
+	<body class="font-mono ...">
+		<header>To Do List</header>
+		<form class="input-forms">
+			<div class="task-input">
+				<label>Task Name:</label>
+				<div>
+					<input type="text" name="task" id="task-name" class="border" />
+				</div>
+			</div>
+
+			<div class="description-input">
+				<label>Description:</label>
+				<div>
+					<input
+						type="text"
+						name="description"
+						id="description"
+						class="border" />
+				</div>
+			</div>
+			<button id="add-button">Add To Do</button>
+		</form>
+		<main class="flex justify-center items-center p-24">
+			<table
+				class="border-collapse border border-slate-500 text-2xl w-full table-fixed">
+				<tr>
+					<th class="border border-slate-600 p-4">Task Name</th>
+					<th class="border border-slate-600 p-4">Description</th>
+					<th class="border border-slate-600 p-4">Status</th>
+					<th class="border border-slate-600 p-4">Actions</th>
+				</tr>
+			</table>
+		</main>
+	</body>
+</html>
